@@ -18,7 +18,7 @@ export default () => {
           element={<Main/>}>
         </Route>
         <Route 
-          exac path='/repository' 
+          path='/repository/:repository' 
           element={<Repository/>}>
         </Route>
       </Routes>
