@@ -13,14 +13,17 @@ export default () => {
   return (
     <Router>
       <Routes>
+
         <Route 
           exac path='/' 
           element={<Main/>}>
         </Route>
+
         <Route 
           path='/repository/:repository' 
-          element={<Repository/>}>
+          element={<Repository />}>
         </Route>
+
       </Routes>
     </Router>
   );
